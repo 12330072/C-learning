@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDBAE7031C9CE6D5006369FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDBAE7021C9CE6D5006369FB /* main.cpp */; };
+		FDBAE70B1C9CE70C006369FB /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDBAE7091C9CE70C006369FB /* Card.cpp */; };
+		FDBAE70E1C9CE721006369FB /* DeckOfCards.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDBAE70C1C9CE721006369FB /* DeckOfCards.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDBAE6FD1C9CE6D5006369FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDBAE6FF1C9CE6D5006369FB /* Card Shuffling and Dealing (for homework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Card Shuffling and Dealing (for homework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBAE7021C9CE6D5006369FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FDBAE7091C9CE70C006369FB /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		FDBAE70A1C9CE70C006369FB /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		FDBAE70C1C9CE721006369FB /* DeckOfCards.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeckOfCards.cpp; sourceTree = "<group>"; };
+		FDBAE70D1C9CE721006369FB /* DeckOfCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckOfCards.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDBAE6FC1C9CE6D5006369FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDBAE6F61C9CE6D5006369FB = {
+			isa = PBXGroup;
+			children = (
+				FDBAE7011C9CE6D5006369FB /* Card Shuffling and Dealing (for homework */,
+				FDBAE7001C9CE6D5006369FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDBAE7001C9CE6D5006369FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDBAE6FF1C9CE6D5006369FB /* Card Shuffling and Dealing (for homework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDBAE7011C9CE6D5006369FB /* Card Shuffling and Dealing (for homework */ = {
+			isa = PBXGroup;
+			children = (
+				FDBAE7021C9CE6D5006369FB /* main.cpp */,
+				FDBAE7091C9CE70C006369FB /* Card.cpp */,
+				FDBAE70A1C9CE70C006369FB /* Card.h */,
+				FDBAE70C1C9CE721006369FB /* DeckOfCards.cpp */,
+				FDBAE70D1C9CE721006369FB /* DeckOfCards.h */,
+			);
+			path = "Card Shuffling and Dealing (for homework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDBAE6FE1C9CE6D5006369FB /* Card Shuffling and Dealing (for homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBAE7061C9CE6D5006369FB /* Build configuration list for PBXNativeTarget "Card Shuffling and Dealing (for homework" */;
+			buildPhases = (
+				FDBAE6FB1C9CE6D5006369FB /* Sources */,
+				FDBAE6FC1C9CE6D5006369FB /* Frameworks */,
+				FDBAE6FD1C9CE6D5006369FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Shuffling and Dealing (for homework";
+			productName = "Card Shuffling and Dealing (for homework";
+			productReference = FDBAE6FF1C9CE6D5006369FB /* Card Shuffling and Dealing (for homework */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDBAE6F71C9CE6D5006369FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "邱兆丰";
+				TargetAttributes = {
+					FDBAE6FE1C9CE6D5006369FB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FDBAE6FA1C9CE6D5006369FB /* Build configuration list for PBXProject "Card Shuffling and Dealing (for homework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDBAE6F61C9CE6D5006369FB;
+			productRefGroup = FDBAE7001C9CE6D5006369FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDBAE6FE1C9CE6D5006369FB /* Card Shuffling and Dealing (for homework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDBAE6FB1C9CE6D5006369FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBAE70E1C9CE721006369FB /* DeckOfCards.cpp in Sources */,
+				FDBAE7031C9CE6D5006369FB /* main.cpp in Sources */,
+				FDBAE70B1C9CE70C006369FB /* Card.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDBAE7041C9CE6D5006369FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDBAE7051C9CE6D5006369FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDBAE7071C9CE6D5006369FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDBAE7081C9CE6D5006369FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDBAE6FA1C9CE6D5006369FB /* Build configuration list for PBXProject "Card Shuffling and Dealing (for homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBAE7041C9CE6D5006369FB /* Debug */,
+				FDBAE7051C9CE6D5006369FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBAE7061C9CE6D5006369FB /* Build configuration list for PBXNativeTarget "Card Shuffling and Dealing (for homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBAE7071C9CE6D5006369FB /* Debug */,
+				FDBAE7081C9CE6D5006369FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDBAE6F71C9CE6D5006369FB /* Project object */;
+}
