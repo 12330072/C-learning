@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDABD0A61CC6889E004C82DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD0A51CC6889E004C82DB /* main.cpp */; };
+		FDABD0B81CC68950004C82DB /* Set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD0AD1CC68950004C82DB /* Set.cpp */; };
+		FDABD0B91CC68950004C82DB /* Relation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD0AF1CC68950004C82DB /* Relation.cpp */; };
+		FDABD0BA1CC68950004C82DB /* ProductSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD0B11CC68950004C82DB /* ProductSet.cpp */; };
+		FDABD0BB1CC68950004C82DB /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD0B31CC68950004C82DB /* Matrix.cpp */; };
+		FDABD0BC1CC68950004C82DB /* Digraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD0B51CC68950004C82DB /* Digraph.cpp */; };
+		FDABD0BD1CC68950004C82DB /* BooleanMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD0B71CC68950004C82DB /* BooleanMatrix.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDABD0A01CC6889E004C82DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDABD0A21CC6889E004C82DB /* Digraph(DS)(15C++) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Digraph(DS)(15C++)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDABD0A51CC6889E004C82DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FDABD0AC1CC68950004C82DB /* Set.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Set.hpp; sourceTree = "<group>"; };
+		FDABD0AD1CC68950004C82DB /* Set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Set.cpp; sourceTree = "<group>"; };
+		FDABD0AE1CC68950004C82DB /* Relation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Relation.hpp; sourceTree = "<group>"; };
+		FDABD0AF1CC68950004C82DB /* Relation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Relation.cpp; sourceTree = "<group>"; };
+		FDABD0B01CC68950004C82DB /* ProductSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProductSet.hpp; sourceTree = "<group>"; };
+		FDABD0B11CC68950004C82DB /* ProductSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProductSet.cpp; sourceTree = "<group>"; };
+		FDABD0B21CC68950004C82DB /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		FDABD0B31CC68950004C82DB /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		FDABD0B41CC68950004C82DB /* Digraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Digraph.hpp; sourceTree = "<group>"; };
+		FDABD0B51CC68950004C82DB /* Digraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Digraph.cpp; sourceTree = "<group>"; };
+		FDABD0B61CC68950004C82DB /* BooleanMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BooleanMatrix.hpp; sourceTree = "<group>"; };
+		FDABD0B71CC68950004C82DB /* BooleanMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BooleanMatrix.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDABD09F1CC6889E004C82DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDABD0991CC6889E004C82DB = {
+			isa = PBXGroup;
+			children = (
+				FDABD0A41CC6889E004C82DB /* Digraph(DS)(15C++) */,
+				FDABD0A31CC6889E004C82DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDABD0A31CC6889E004C82DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDABD0A21CC6889E004C82DB /* Digraph(DS)(15C++) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDABD0A41CC6889E004C82DB /* Digraph(DS)(15C++) */ = {
+			isa = PBXGroup;
+			children = (
+				FDABD0AC1CC68950004C82DB /* Set.hpp */,
+				FDABD0AD1CC68950004C82DB /* Set.cpp */,
+				FDABD0B21CC68950004C82DB /* Matrix.hpp */,
+				FDABD0B31CC68950004C82DB /* Matrix.cpp */,
+				FDABD0B41CC68950004C82DB /* Digraph.hpp */,
+				FDABD0B61CC68950004C82DB /* BooleanMatrix.hpp */,
+				FDABD0B01CC68950004C82DB /* ProductSet.hpp */,
+				FDABD0A51CC6889E004C82DB /* main.cpp */,
+				FDABD0B11CC68950004C82DB /* ProductSet.cpp */,
+				FDABD0AE1CC68950004C82DB /* Relation.hpp */,
+				FDABD0B51CC68950004C82DB /* Digraph.cpp */,
+				FDABD0AF1CC68950004C82DB /* Relation.cpp */,
+				FDABD0B71CC68950004C82DB /* BooleanMatrix.cpp */,
+			);
+			path = "Digraph(DS)(15C++)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDABD0A11CC6889E004C82DB /* Digraph(DS)(15C++) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDABD0A91CC6889E004C82DB /* Build configuration list for PBXNativeTarget "Digraph(DS)(15C++)" */;
+			buildPhases = (
+				FDABD09E1CC6889E004C82DB /* Sources */,
+				FDABD09F1CC6889E004C82DB /* Frameworks */,
+				FDABD0A01CC6889E004C82DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Digraph(DS)(15C++)";
+			productName = "Digraph(DS)(15C++)";
+			productReference = FDABD0A21CC6889E004C82DB /* Digraph(DS)(15C++) */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDABD09A1CC6889E004C82DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "菇生";
+				TargetAttributes = {
+					FDABD0A11CC6889E004C82DB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FDABD09D1CC6889E004C82DB /* Build configuration list for PBXProject "Digraph(DS)(15C++)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDABD0991CC6889E004C82DB;
+			productRefGroup = FDABD0A31CC6889E004C82DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDABD0A11CC6889E004C82DB /* Digraph(DS)(15C++) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDABD09E1CC6889E004C82DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDABD0BA1CC68950004C82DB /* ProductSet.cpp in Sources */,
+				FDABD0BC1CC68950004C82DB /* Digraph.cpp in Sources */,
+				FDABD0B81CC68950004C82DB /* Set.cpp in Sources */,
+				FDABD0B91CC68950004C82DB /* Relation.cpp in Sources */,
+				FDABD0BD1CC68950004C82DB /* BooleanMatrix.cpp in Sources */,
+				FDABD0A61CC6889E004C82DB /* main.cpp in Sources */,
+				FDABD0BB1CC68950004C82DB /* Matrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDABD0A71CC6889E004C82DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDABD0A81CC6889E004C82DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDABD0AA1CC6889E004C82DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDABD0AB1CC6889E004C82DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDABD09D1CC6889E004C82DB /* Build configuration list for PBXProject "Digraph(DS)(15C++)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDABD0A71CC6889E004C82DB /* Debug */,
+				FDABD0A81CC6889E004C82DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDABD0A91CC6889E004C82DB /* Build configuration list for PBXNativeTarget "Digraph(DS)(15C++)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDABD0AA1CC6889E004C82DB /* Debug */,
+				FDABD0AB1CC6889E004C82DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDABD09A1CC6889E004C82DB /* Project object */;
+}

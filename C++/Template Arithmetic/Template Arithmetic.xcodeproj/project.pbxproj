@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDABD06F1CC45669004C82DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD06E1CC45669004C82DB /* main.cpp */; };
+		FDABD0771CC456A3004C82DB /* Arithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD0751CC456A3004C82DB /* Arithmetic.cpp */; };
+		FDABD07D1CC456FF004C82DB /* tpArithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDABD07B1CC456FF004C82DB /* tpArithmetic.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDABD0691CC45669004C82DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDABD06B1CC45669004C82DB /* Template Arithmetic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Template Arithmetic"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDABD06E1CC45669004C82DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FDABD0751CC456A3004C82DB /* Arithmetic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arithmetic.cpp; sourceTree = "<group>"; };
+		FDABD0761CC456A3004C82DB /* Arithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arithmetic.h; sourceTree = "<group>"; };
+		FDABD07B1CC456FF004C82DB /* tpArithmetic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpArithmetic.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDABD0681CC45669004C82DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDABD0621CC45668004C82DB = {
+			isa = PBXGroup;
+			children = (
+				FDABD06D1CC45669004C82DB /* Template Arithmetic */,
+				FDABD06C1CC45669004C82DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDABD06C1CC45669004C82DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDABD06B1CC45669004C82DB /* Template Arithmetic */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDABD06D1CC45669004C82DB /* Template Arithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				FDABD0761CC456A3004C82DB /* Arithmetic.h */,
+				FDABD0751CC456A3004C82DB /* Arithmetic.cpp */,
+				FDABD07B1CC456FF004C82DB /* tpArithmetic.cpp */,
+				FDABD06E1CC45669004C82DB /* main.cpp */,
+			);
+			path = "Template Arithmetic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDABD06A1CC45669004C82DB /* Template Arithmetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDABD0721CC45669004C82DB /* Build configuration list for PBXNativeTarget "Template Arithmetic" */;
+			buildPhases = (
+				FDABD0671CC45669004C82DB /* Sources */,
+				FDABD0681CC45669004C82DB /* Frameworks */,
+				FDABD0691CC45669004C82DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Template Arithmetic";
+			productName = "Template Arithmetic";
+			productReference = FDABD06B1CC45669004C82DB /* Template Arithmetic */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDABD0631CC45668004C82DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "菇生";
+				TargetAttributes = {
+					FDABD06A1CC45669004C82DB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FDABD0661CC45668004C82DB /* Build configuration list for PBXProject "Template Arithmetic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDABD0621CC45668004C82DB;
+			productRefGroup = FDABD06C1CC45669004C82DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDABD06A1CC45669004C82DB /* Template Arithmetic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDABD0671CC45669004C82DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDABD06F1CC45669004C82DB /* main.cpp in Sources */,
+				FDABD07D1CC456FF004C82DB /* tpArithmetic.cpp in Sources */,
+				FDABD0771CC456A3004C82DB /* Arithmetic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDABD0701CC45669004C82DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDABD0711CC45669004C82DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDABD0731CC45669004C82DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDABD0741CC45669004C82DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDABD0661CC45668004C82DB /* Build configuration list for PBXProject "Template Arithmetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDABD0701CC45669004C82DB /* Debug */,
+				FDABD0711CC45669004C82DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDABD0721CC45669004C82DB /* Build configuration list for PBXNativeTarget "Template Arithmetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDABD0731CC45669004C82DB /* Debug */,
+				FDABD0741CC45669004C82DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDABD0631CC45668004C82DB /* Project object */;
+}
